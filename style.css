@@ -1,0 +1,221 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-image: url("images/bg-hero-mobile.svg");
+  height: 700px;
+  background-color: hsl(193, 100%, 96%);
+}
+.top-container{
+  padding: 25px 25px;
+  display: inline-flex;
+  align-items: center;
+  align-content: space-between;
+}
+img{
+  height: 20px;
+  padding-right: 100px;
+}
+.button-1{
+  display: inline-flex;
+  height: 25px;
+  width: 100px;
+  padding: 0px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  font-size: 13px;
+  font-weight: bolder;
+  box-shadow: 0px 0px 5px 0px black;
+  color:  hsl(192, 100%, 9%);
+}
+
+.button-1:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.button-1-text{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  padding-left: 20px;
+  height: 100%;
+}
+
+.texts{
+  display: block;
+  padding: 35px 25px;
+  
+}
+.catch{
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 10px 0px;
+  text-align: center;
+
+}
+.text{
+  font-size: 18px;
+  padding: 10px 0px;
+  text-align: center;
+  padding: 15px 0px 15px 0px;
+}
+.bust a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 25px;
+  height: 50px;
+  line-height: 50px;
+}
+.but:hover{
+  background-color: #fff;
+  color: hsl(322, 100%, 66%);
+}
+
+.txt{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 10px;
+  padding-left: 35px;
+  height: 100%;
+}
+.bust{
+  align-items: center;
+  align-content: center;
+  padding: 20px 20px 20px 40px;
+}
+
+.as img{
+  width: 325px;
+  height: 100%;
+  padding: 25px 0px 0px 25px;
+}
+.main{
+  padding-top: 350px;
+  margin-top: 350px;
+  background-color: #fff;
+  width: 100%;
+  display: block;
+}
+.box{
+  padding: 50px 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 0px hsl(208, 11%, 55%);
+  margin: 50px 20px;
+}
+.img{
+  width: 100%;
+  height: 300px;
+  align-content: center;
+}
+#main{
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 10px 0px;
+  text-align: center;
+  color: hsl(192, 100%, 9%);
+}
+.box a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 25px;
+  height: 50px;
+  line-height: 50px;
+}
+
+
+@media only screen and (min-width:1000px){
+  header{
+    background-image: url("images/bg-hero-desktop.svg");
+    height: 700px;
+    background-color: hsl(193, 100%, 96%);
+  }
+  .top-container{
+    padding: 25px 25px;
+    display: inline-flex;
+    align-items: center;
+    align-content: space-between;
+  }
+  img{
+    height: 20px;
+    padding:10px 20px;
+    float: left;
+  }
+  .rit{
+    float: right;
+    padding: 0px 20px 0px 990px;
+  }
+  .button-1:hover{
+    background-color:hsl(192, 100%, 9%) ;
+    color: #fff;
+  }
+   
+ .button-1:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+ }
+ .left{
+  width: 40%;
+  float: left;
+  padding: 10px 20px;
+ }
+ .left p{
+  padding: 20px;
+  text-align: left;
+}
+ .as{
+  width: 40%;
+  float: right;
+  padding-right: 40px;
+ }
+ .as img{
+  width: 100%;
+ }
+ .bust a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 25px;
+  height: 40px;
+  line-height: 40px;
+  width: 300px;
+}
+.box{
+  width: 100%;
+  height: 500px;
+}
+.lef{
+  width: 40%;
+  float: right;
+}
+.lef img{
+  width: 100%;
+  height: 350px;
+  padding-right: 60px;
+}
+.pit{
+  width: 40%;
+}
+}
